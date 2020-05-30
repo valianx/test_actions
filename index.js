@@ -10,7 +10,7 @@ console.log("QUE WEAAAA???!!!")
 const repo = "https://github.com/valianx/test_actions";
 
 app.get("", (req, res) => {
-  res.send("index");
+  res.send("index asd");
 });
 
 app.post("/github-webhook", async (req, res) => {
