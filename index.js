@@ -5,8 +5,8 @@ const { exec } = require("child_process");
 const port = 3000;
 
 app.set("port", port);
+console.log("QUE WEAAAA???!!!")
 
-console.log("test!!")
 const repo = "https://github.com/valianx/test_actions";
 
 app.get("", (req, res) => {
@@ -26,7 +26,7 @@ app.post("/github-webhook", async (req, res) => {
       }
       console.log(`stdout: ${stdout}`);
     });
-    console.log("2");
+
     return res.status(200).json("ok");
   } catch (error) {
     console.log(error);
