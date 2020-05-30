@@ -1,6 +1,6 @@
 const suma = (a, b) => {
-  console.log('123')
-  return a + b;
+
+  return a + b + 1;
 };
 
 module.exports = { suma };
