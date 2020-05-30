@@ -6,6 +6,7 @@ const port = 3000;
 
 app.set("port", port);
 
+console.log("test!!")
 const repo = "https://github.com/valianx/test_actions";
 
 app.get("", (req, res) => {
