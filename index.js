@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const { exec } = require("child_process");
 
-const port = 3000;
+const port = 8080;
 
 app.set("port", port);
 console.log("QUE WEAAAA???!!!")
