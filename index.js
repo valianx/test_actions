@@ -1,5 +1,5 @@
 const suma = (a, b) => {
-  console.log('asdasdsa')
+  console.log('123')
   return a + b;
 };
 
