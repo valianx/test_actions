@@ -4,7 +4,7 @@ const exec = require('child_process').exec;
 
 
 const port = 3000
-console.log(port)
+console.log(port + 1000)
 app.set('port', port)
 
 
