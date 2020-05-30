@@ -1,7 +1,7 @@
 name: integracion continua con node.js
 
 on:
- push:
+  pull_request:
     branches: [master]
 
 jobs:
@@ -11,6 +11,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-            node-version: 12.16
+          node-version: 12.16
       - run: npm ci
       - run: npm test
