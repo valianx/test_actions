@@ -5,12 +5,11 @@ const { exec } = require("child_process");
 const port = 8080;
 
 app.set("port", port);
-console.log("QUE WEAAAA???!!!")
 
 const repo = "https://github.com/valianx/test_actions";
 
 app.get("", (req, res) => {
-  res.send("index asd");
+  res.send("index editado");
 });
 
 app.post("/github-webhook", async (req, res) => {
