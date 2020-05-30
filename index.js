@@ -16,7 +16,7 @@ app.get('', (req, res)=>{
 
 app.post('/github-webhook', ()=> {
   try {
-    exec(`git pull`);
+    exec(`git pull origin master`);
   } catch (error) {
     console.log(error);
   }
